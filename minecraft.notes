@@ -1,0 +1,22 @@
+Jan 4, 2026
+
+Starting minecraft adventure with julian and nicholas. Current plan is to use the java server to get them started and make sure we can log in from various places, then move to adding mods with code
+
+Updating ubuntu to 25.04 to start
+
+$ sudo apt update
+$ sudo apt upgrade
+
+checked java version with
+
+$ java --version
+
+to access server from another computer on network
+
+$ ssh chris@raspberry.local
+
+(password: password)
+
+Download most recent version
+
+$ curl -o minecraft_server.1.21.11.jar https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar
