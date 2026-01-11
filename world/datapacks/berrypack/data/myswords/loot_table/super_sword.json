@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 100,
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "300-Heart Sword",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "One hit. Total destruction.",
+                    "color": "dark_red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "id": "myswords:super_damage",
+                    "type": "minecraft:attack_damage",
+                    "amount": 600,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "has_gun_token": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:paper"],
+            "components": {
+              "minecraft:custom_data": {
+                "myguns_token": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "myguns:grant_custom_gun"
+  }
+}
+

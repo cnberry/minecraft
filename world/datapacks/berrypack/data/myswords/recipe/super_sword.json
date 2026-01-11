@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "   ",
+    " G ",
+    "   "
+  ],
+  "key": {
+    "G": "minecraft:dirt"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Super Sword",
+        "italic": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "myswords:super_damage",
+          "type": "minecraft:attack_damage",
+          "amount": 600,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}
+

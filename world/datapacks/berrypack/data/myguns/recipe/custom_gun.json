@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    "   ",
+    " I ",
+    "   "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Custom Gun Token",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "myguns_token": 1
+      }
+    }
+  }
+}
+
