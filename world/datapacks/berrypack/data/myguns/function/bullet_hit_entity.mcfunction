@@ -1,3 +1,4 @@
+say [DEBUG] bullet_hit_entity.mcfunction: @s @p ~ ~ ~
 tag @s add myguns_processed
 
 # Unmissable debug signals
